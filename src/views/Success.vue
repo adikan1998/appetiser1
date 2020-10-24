@@ -21,7 +21,7 @@
       </v-card-text>
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn color="red darken-3" dark :loading="loading" @click="doLogout">LOGOUT</v-btn>
+        <v-btn color="red darken-3" dark :loading="loading" @click="doLogout"><v-icon left>mdi-login</v-icon>LOGOUT</v-btn>
       </v-card-actions>
     </v-card>
   </v-flex>
